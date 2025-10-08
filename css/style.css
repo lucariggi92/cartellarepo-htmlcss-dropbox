@@ -17,7 +17,9 @@
 .container-60{
     width: 60%;
     margin: 0 auto;
-    border: 2px solid blue;
+    border: 2px solid gray;
+    
+    
 }
 
 /*UTILITIES*/
@@ -29,35 +31,55 @@ blu-square{
 .flex-row{
     display: flex;
     flex-direction: row;
+   
 }
 
 .space-between{
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .padding-20{
     padding: 20px;
 }
 
+.padding-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .bg-lightblu{
     background-color: lightblue;
+
 }
 
 .padding-80{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.margin-40{
+    margin-top: 40px;
+}
+
+
 /* HEADER */
 header{
-    background: red;
+    
         height: 80px;
 }
 
 .nav{
     width:30%;
-    border: 2px solid blue;
+    
 }
 
+.center{
+    text-align: center;
+}
 /* HERO */
 .hero{
     background-color: lightblue;
@@ -71,4 +93,15 @@ header{
 .hero-box-img{
  width:70%;
  border: 2px dashed rgb(239, 16, 16);
+}
+
+/* OPTION */
+.col-30{
+    width:calc(100% / 3 - 80px/ 3);
+   border:1px solid gray;
+}
+
+.col-header{
+    border: 1px solid gray;
+    text-align: center;
 }

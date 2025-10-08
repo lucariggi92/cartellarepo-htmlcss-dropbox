@@ -23,7 +23,7 @@
 }
 
 /*UTILITIES*/
-blu-square{
+.blu-square{
     background-color: blue;
     height: 20px;
 }
@@ -47,7 +47,7 @@ blu-square{
 }
 
 .padding-text{
-    padding-top: 20px;
+  
     padding-bottom: 20px;
 }
 
@@ -73,6 +73,10 @@ blu-square{
     border: 1px solid gray;
 }
 
+
+.gap{
+    gap: 40px;
+}
 /* HEADER */
 header{
     
@@ -104,7 +108,7 @@ header{
 
 /* COLUMNS */
 .col-30{
-    width:calc(100% / 3 - 80px/ 3);
+    width:calc(100% / 3 - (80px / 3));
  
 }
 
@@ -113,13 +117,21 @@ header{
     text-align: center;
 }
 
-/* IMG-SECTION */
-.col-40{
-    width: 30%;
-      
+.flex-wrap {
+    flex-wrap: wrap;
 }
+/* IMG-SECTION */
+
 
 .col-60{
-    width: 70%;
+    width: 60%;
  
 }
+
+.col-40{
+    width: 40%;
+ 
+}
+
+/* CARDS SECTION */
+

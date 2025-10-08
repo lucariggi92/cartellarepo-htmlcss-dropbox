@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* LAYOUT */
 .container-70{
     width: 70%;
@@ -17,4 +18,48 @@
     width: 60%;
     margin: 0 auto;
     border: 2px solid blue;
+}
+
+/*UTILITIES*/
+blu-square{
+    background-color: blue;
+    height: 20px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.bg-lightblu{
+    background-color: lightblue;
+}
+
+.padding-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* HEADER */
+header{
+    background: red;
+        height: 80px;
+}
+
+.nav{
+    width:30%;
+    border: 2px solid blue;
+}
+
+/* HERO */
+.hero{
+    background-color: lightblue;
+
 }

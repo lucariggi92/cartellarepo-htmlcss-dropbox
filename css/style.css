@@ -144,3 +144,8 @@ footer{
     color: white;
 }
 
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}

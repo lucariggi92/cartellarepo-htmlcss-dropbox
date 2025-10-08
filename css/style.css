@@ -63,3 +63,12 @@ header{
     background-color: lightblue;
 
 }
+.hero-box-text{
+    width:30% ;
+    border: 2px dashed black;
+
+}
+.hero-box-img{
+ width:70%;
+ border: 2px dashed rgb(239, 16, 16);
+}

@@ -147,6 +147,14 @@ li{
    
 }
 
+.btn-white{
+    text-align: center;
+    width: 50%;
+    padding: 2%;
+    background-color:white;
+    border: 1px solid black;
+    }
+
 .text-white{
     color: white;
 }

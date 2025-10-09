@@ -127,8 +127,12 @@ li{
 }
 
 .margin-right-20{
-    margin-right: 60px;
+    margin-right: 60px;}
+
+.margin-right-1{
+    margin-right: 5px;
 }
+
 .border{
     border: 1px solid rgb(203, 197, 197);
 }
@@ -226,6 +230,11 @@ justify-content:space-around ;
     color: gray;
  }
 
+ .logo-list{
+   
+  size: 100%;
+       
+}
 
 /* IMG-SECTION */
 
@@ -239,6 +248,8 @@ justify-content:space-around ;
     width: 40%;
  
 }
+
+
 
 /* FOOTER */
 footer{

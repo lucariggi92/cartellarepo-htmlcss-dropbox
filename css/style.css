@@ -12,7 +12,11 @@ a{
 
 ul{
     list-style: none;
+   
+   
 }
+
+
 
 /* COMMON */
 body{
@@ -23,9 +27,18 @@ h1{
     font-size: 4rem;
 }
 
+h2{
+    font-size: 2rem;
+}
+
 img{
     width: 100%;
 }
+
+li{
+    line-height:30px ;
+}
+
 
 /* LAYOUT */
 .container-70{
@@ -44,19 +57,23 @@ img{
 }
 
 /*UTILITIES*/
-.blu-square{
-    background-color: blue;
-    height: 20px;
-}
 
 .flex-row{
     display: flex;
     flex-direction: row;
    
 }
-
+.vertical-align{
+    vertical-align: middle;
+}
 .items-center{
     align-items: center;
+}
+
+
+.text-center{
+  
+    text-align: center;
 }
 .space-between{
     justify-content: space-between;
@@ -69,10 +86,26 @@ img{
 .padding-20{
     padding: 20px;
 }
+.padding-10{
+    padding: 10px;
+}
 
+.padding-top-10{
+    padding-top: 10px;
+}
 .padding-text{
   
     padding-bottom: 20px;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+
+.padding-tb-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .bg-lightblu{
@@ -80,10 +113,6 @@ img{
 
 }
 
-.padding-tb-80{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 
 .margin-40{
     margin-top: 40px;
@@ -101,16 +130,19 @@ img{
     margin-right: 60px;
 }
 .border{
-    border: 1px solid gray;
+    border: 1px solid rgb(203, 197, 197);
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
 
 .gap{
     gap: 40px;
 }
 
 .btn-blue{
-    padding: 5%;
+    padding: 10px 2%;
     background-color: blue;
    
 }
@@ -149,21 +181,44 @@ header{
     font-weight: 900;
 }
 
+/* OPTION */
+.btn-box{
+    display: flex;
+   
+    align-items: center;
+    width: 50%;
 
-/* COLUMNS */
+}
+
+.btn-radius{
+width: 20px;
+height: 20px;
+border: 1px solid rgb(203, 197, 197);
+border-radius: 50%;
+margin: 5px;
+justify-content:space-around ;
+
+}
+
+.link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.br{
+    color: rgb(203, 197, 197);
+}
+
+/* COLUMNS SECTION */
 .col-30{
     width:calc(100% / 3 - (80px / 3));
- 
-}
+ }
 
-.col-header{
-  
-    text-align: center;
-}
+ .month{
+    color: gray;
+ }
 
-.flex-wrap {
-    flex-wrap: wrap;
-}
+
 /* IMG-SECTION */
 
 
@@ -193,3 +248,4 @@ footer{
     width: 20%;
     border: 1px solid white;
 }
+
